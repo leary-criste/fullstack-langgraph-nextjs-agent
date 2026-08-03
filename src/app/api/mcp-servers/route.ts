@@ -117,4 +117,4 @@ export async function DELETE(request: Request) {
     }
     return NextResponse.json({ error: "Failed to delete MCP server" }, { status: 500 });
   }
-}
+}
