@@ -10,4 +10,4 @@ export async function GET(_req: Request, { params }: { params: Promise<{ threadI
 
   const messages = await fetchThreadHistory(threadId);
   return NextResponse.json(messages, { status: 200 });
-}
+}
