@@ -24,4 +24,4 @@ export function getAppUrl(): string {
     "NEXT_PUBLIC_APP_URL environment variable is required in production. " +
       "Set it to your application's public URL (e.g., https://myapp.com)",
   );
-}
+}
