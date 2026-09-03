@@ -69,4 +69,4 @@ export async function getAgent(cfg?: AgentConfigOptions) {
 }
 
 // Eagerly create a default agent at module load using env defaults.
-export const defaultAgent = await ensureAgent();
+export const defaultAgent = await ensureAgent();
