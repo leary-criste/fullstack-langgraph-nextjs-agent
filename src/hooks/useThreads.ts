@@ -71,4 +71,4 @@ export function useThreads(): UseThreadsReturn {
     switchThread,
     refetchThreads: refetchThreadsQuery,
   };
-}
+}
