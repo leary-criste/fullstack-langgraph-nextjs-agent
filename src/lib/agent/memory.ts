@@ -29,4 +29,4 @@ export const getHistory = async (threadId: string): Promise<BaseMessage[]> => {
   return Array.isArray(history?.channel_values?.messages) ? history.channel_values.messages : [];
 };
 
-export const postgresCheckpointer = createPostgresMemory();
+export const postgresCheckpointer = createPostgresMemory();
